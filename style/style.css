@@ -11,7 +11,7 @@ nav{
 }
 
 nav ul a{
-  font-size: 25px !important;
+  font-size: 18px !important;
   color:  rgb(184, 135, 45)!important;
 }
 .tabs .indicator{
@@ -26,17 +26,17 @@ nav ul a{
   padding-top: 4vw;
   padding-bottom: 4vw;
 }
-@media screen and (max-width: 670px){
-  header {min-height: 500px;}
+
+.menu{
+  color:rgb(184, 135, 45) !important ;
+  font-size: 40px !important;
 }
-
-
 
 *{
   padding: 0;
   margin: 0%;
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 body{
   background-color:rgb(241, 241, 241) !important;
@@ -58,15 +58,17 @@ body{
 }
 
 .header{
-  min-height: 87vh;
+  /* min-height: 87vh; */
   position: relative;
   z-index: 99;
 
 }
 .bg{
   content: "";
-  height: 40rem;
-  width: 45%;
+  height: 38rem;
+  width: 38%;
+  padding-top: 3%;
+  padding-left: 2%;
   position: absolute;
   z-index: 0;
   right: 0;
@@ -75,11 +77,11 @@ body{
 }
 
 .hero-img {
-    position: absolute;
+    /* position: absolute; */
     /* bottom: -10%; */
     z-index: 700;
     top: 2%;
-    right: 2%;
+    right: 0%;
     height: 35rem;
     object-fit: contain;
   }
@@ -115,8 +117,8 @@ body{
   
   .btnn {
     display: inline-block;
-    background-color: rgb(184, 135, 45);
-    padding: 1.2rem 4rem;
+    background-color: rgb(184, 135, 45)!important;
+    /* padding: 1.2rem 4rem; */
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
