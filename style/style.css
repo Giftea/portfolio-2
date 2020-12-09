@@ -38,6 +38,19 @@ nav ul a{
   box-sizing: border-box;
 
 }
+h2, h4, h5 {
+  color:rgb(184, 135, 45) !important  ;
+}
+
+.small{
+  color: #243a6f  !important;
+
+}
+
+h5.small{
+  color: #243a6f  !important;
+
+}
 body{
   background-color:rgb(241, 241, 241) !important;
 }
@@ -84,6 +97,10 @@ body{
     right: 0%;
     height: 35rem;
     object-fit: contain;
+  }
+
+  #photos{
+    margin-top: 10%;
   }
   
   .hero-content {
@@ -138,6 +155,8 @@ body{
 
       border-radius:0 0 0 120px;
     }
+
+ 
 
     .hero-img {
       
