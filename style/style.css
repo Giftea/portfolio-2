@@ -1,0 +1,175 @@
+
+nav{
+  position: relative;
+  z-index: 100000;
+  box-shadow: none !important;
+}
+ nav .brand-logo{
+  font-size: 42px !important;
+  font-weight: bold;
+  color:  rgb(184, 135, 45) !important;
+}
+
+nav ul a{
+  font-size: 25px !important;
+  color:  rgb(184, 135, 45)!important;
+}
+.tabs .indicator{
+  background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background-color: transparent;
+}
+
+.section{
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+@media screen and (max-width: 670px){
+  header {min-height: 500px;}
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+  background-color:rgb(241, 241, 241) !important;
+}
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 0.5rem;
+}
+}
+
+
+#navbarSupportedContent{
+  flex-grow: 0;
+  color:  rgb(184, 135, 45) !important;
+
+}
+
+.header{
+  min-height: 87vh;
+  position: relative;
+  z-index: 99;
+
+}
+.bg{
+  content: "";
+  height: 40rem;
+  width: 45%;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  background-color: #d1e2e9!important;
+  border-radius:0 0 0 120px;
+}
+
+.hero-img {
+    position: absolute;
+    /* bottom: -10%; */
+    z-index: 700;
+    top: 2%;
+    right: 2%;
+    height: 35rem;
+    object-fit: contain;
+  }
+  
+  .hero-content {
+    position: relative;
+    /* top: 50%; */
+    transform: translate(25%, -50%);
+  }
+  
+  .hero-content h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .header .discount {
+    color: #fc7c7c;;
+  }
+  .header > h5{
+    color: #243a6f;
+  }
+  
+  .header h1 span {
+    color:  rgb(184, 135, 45);
+    /* font-size: 4rem; */
+    font-weight: lighter;
+    display: block;
+    line-height: 1;
+    text-shadow: 3px 3px 0 rgb(230, 214, 235), 4px 4px 0 rgb(230, 214, 235);
+  }
+  
+  .btnn {
+    display: inline-block;
+    background-color: rgb(184, 135, 45);
+    padding: 1.2rem 4rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3rem;
+  }
+
+  p{
+    font-weight: normal;
+  }
+
+   @media only screen and (min-width: 1700px) {
+
+    .bg{
+      
+      height: 60rem;
+      width: 35%;
+
+      border-radius:0 0 0 120px;
+    }
+
+    .hero-img {
+      
+      right: 2%;
+      height: 60rem;
+     
+    }
+
+    .container .intro .row .col-md-5{
+      height: 60rem;
+    }
+    
+   }
+
+   @media only screen and (max-width: 992px) {
+    .bg{
+      
+      height: 25rem;
+      width: 50%;
+     
+      background-color: #d1e2e9!important;
+      border-radius:0 0 0 300px;
+    }
+
+   }
+
+   @media only screen and (max-width: 500px) {
+    .bg{
+      
+      height: 20rem;
+      width: 59%;
+     
+      background-color: #d1e2e9!important;
+      border-radius:0 0 0 300px;
+    }
+
+   }
